@@ -1,0 +1,115 @@
+{% extends 'main.html' %}
+
+{% block content %}
+
+{% load static %}
+
+<section class="ls ms page_map">
+
+    <div class="marker">
+        <div class="marker-address">sydney, australia, Liverpool street, 2</div>
+        <div class="marker-title">First Marker</div>
+        <div class="marker-description">
+            <p><strong>Sydney, Australia, Liverpool Street, 2</strong>.<br>
+                Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Aliquid cumque,
+                deserunt dolor.
+            </p>
+        </div>
+
+        <img class="marker-icon" src="images/map_marker_icon.png" alt="">
+    </div>
+    <!-- .marker -->
+
+</section>
+
+
+<section class="ls s-pt-55 s-pb-60 s-pt-lg-95 s-pb-lg-100 s-pt-xl-145 s-pb-xl-150">
+    <div class="container">
+
+        <div class="row c-mb-50 c-mb-lg-0">
+            <div class="col-sm-4 animate" data-animation="pullDown">
+                <div class="icon-box text-center">
+                    <div class="icon-styled color-main fs-56 mb-20">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <p>
+                        <strong>Phone:</strong> +12 345 678 9123<br>
+                        <strong>Fax:</strong> +12 345 678 9123
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-sm-4 animate" data-animation="pullDown">
+                <div class="icon-box text-center">
+                    <div class="icon-styled color-main fs-56 mb-20">
+                        <i class="fa fa-map-marker"></i>
+                    </div>
+                    <p>
+                        PO Box 54378<br>
+                        4321 Your Address,<br>
+                        Your City, Your Country
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-sm-4 animate" data-animation="pullDown">
+                <div class="icon-box text-center">
+                    <div class="icon-styled color-main fs-56 mb-20">
+                        <i class="fa fa-envelope"></i>
+                    </div>
+                    <p>
+                        <a href="mailto:info@example.com">info@example.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="divider-55 d-none d-xl-block"></div>
+
+            <div class="offset-lg-2 col-lg-8 animate" data-animation="scaleAppear">
+
+                <div class="p-30 hero-bg hero-form">
+
+                    <form class="contact-form c-mb-30 c-gutter-20" method="post" action="http://webdesign-finder.com/">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="form-group has-placeholder">
+                                    <label for="name">Name </label>
+                                    <input type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control" placeholder="Name">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="form-group has-placeholder">
+                                    <label for="email">Email</label>
+                                    <input type="email" aria-required="true" size="30" value="" name="email" id="email" class="form-control" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group has-placeholder textarea">
+                                    <label for="message">Message</label>
+                                    <textarea aria-required="true" rows="4" cols="45" name="message" id="message" class="form-control" placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 text-center text-md-left mt-10">
+                                <div class="form-group">
+                                    <button type="submit" id="contact_form_submit" name="contact_submit" class="btn btn-small btn-outline-maincolor"><span>Contact Us</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!--.col-* -->
+        </div>
+    </div>
+</section
+
+{% endblock %}
