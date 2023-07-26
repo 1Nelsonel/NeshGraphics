@@ -4,13 +4,33 @@
 
 {% load static %}
 
+<!-- 
+<section class="page_title ds s-pt-105 s-pb-50 s-pt-lg-115 s-pb-lg-60">
+    <div class="divider-3 d-none d-lg-block"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="bold text-center text-lg-left">Team</h1>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="{% url 'home' %}">Home</a>
+                    </li>
+                    <li class="breadcrumb-item active">
+                        Team
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</section> -->
+
 <section class="ls s-py-60 s-pb-md-100 s-py-lg-150">
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <div class="row align-items-center text-center text-lg-left c-gutter-0">
                     <div class="col-lg-6">
-                        <img src="images/team/07.jpg" alt="">
+                        <img src="{% static 'images/team/07.jpg' %}" alt="">
                         <div class="divider-40 d-block d-lg-none"></div>
                     </div>
                     <div class="left-content col-lg-6 text-center text-lg-left">
@@ -32,7 +52,7 @@
                         </p>
                         <div class="divider-60 d-none d-xl-block"></div>
                         <p class="signature text-center with-border overflow-hidden">
-                            <img src="images/signature.png" alt="">
+                            <img src="{% static 'images/signature.png' %}" alt="">
                         </p>
                     </div>
                 </div>
@@ -218,7 +238,7 @@
         <div class="row c-mb-53 c-mb-lg-0">
             <div class="col-12 col-lg-3">
                 <div class="steps">
-                    <img src="images/step01.jpg" alt="">
+                    <img src="{% static 'images/step01.jpg' %}" alt="">
                     <div class="step-content">
                         <h6 class="fw-700">Diagnostics</h6>
                         <p class="color-dark">Help extend the life of your major business investment</p>
@@ -227,7 +247,7 @@
             </div>
             <div class="col-12 col-lg-3">
                 <div class="steps feature-step">
-                    <img src="images/step02.jpg" alt="">
+                    <img src="{% static 'images/step02.jpg' %}" alt="">
                     <div class="step-content">
                         <h6 class="fw-700">Make a Quote</h6>
                         <p class="color-dark">Regarding our technicians, it takes 30 years of ongoing training</p>
@@ -236,7 +256,7 @@
             </div>
             <div class="col-12 col-lg-3">
                 <div class="steps">
-                    <img src="images/step03.jpg" alt="">
+                    <img src="{% static 'images/step03.jpg' %}" alt="">
                     <div class="step-content">
                         <h6 class="fw-700">Repair Your Car</h6>
                         <p class="color-dark">Convoy Auto Repair provides expert repairs, service</p>
@@ -246,7 +266,7 @@
             </div>
             <div class="col-12 col-lg-3">
                 <div class="steps feature-step last-step">
-                    <img src="images/step04.jpg" alt="">
+                    <img src="{% static 'images/step04.jpg' %}" alt="">
                     <div class="step-content">
                         <h6 class="fw-700">Joy</h6>
                         <p class="color-dark">We are proud to have earned the reputation</p>
@@ -311,7 +331,7 @@
                 </div>
             </div>
             <div class="col-lg-4 col-xl-6">
-                <img src="images/01.png" alt="">
+                <img src="{% static 'images/01.png' %}" alt="">
             </div>
             <div class="col-lg-4 col-xl-3">
                 <div class="media">
@@ -376,10 +396,10 @@
                     data-dots="false">
                     <div class="quote-item">
                         <div class="quote-image">
-                            <img src="images/team/testimonials_01.jpg" alt="">
+                            <img src="{% static 'images/team/testimonials_01.jpg' %}" alt="">
                         </div>
                         <div class="quote-mark">
-                            <img src="images/quote.png" alt="">
+                            <img src="{% static 'images/quote.png' %}" alt="">
                         </div>
                         <p>
                             <em class="big fw-400">
@@ -397,10 +417,10 @@
                     </div>
                     <div class="quote-item">
                         <div class="quote-image">
-                            <img src="images/team/testimonials_01.jpg" alt="">
+                            <img src="{% static 'images/team/testimonials_01.jpg' %}" alt="">
                         </div>
                         <div class="quote-mark">
-                            <img src="images/quote.png" alt="">
+                            <img src="{% static 'images/quote.png' %}" alt="">
                         </div>
                         <p>
                             <em class="big fw-400">
@@ -418,10 +438,10 @@
                     </div>
                     <div class="quote-item">
                         <div class="quote-image">
-                            <img src="images/team/testimonials_01.jpg" alt="">
+                            <img src="{% static 'images/team/testimonials_01.jpg' %}" alt="">
                         </div>
                         <div class="quote-mark">
-                            <img src="images/quote.png" alt="">
+                            <img src="{% static 'images/quote.png' %}" alt="">
                         </div>
                         <p>
                             <em class="big fw-400">
@@ -458,7 +478,7 @@
                     data-responsive-md="2" data-responsive-sm="2" data-nav="false" data-dots="false" data-margin="60">
                     <div class="vertical-item content-padding text-center overflow-hidden">
                         <div class="item-media">
-                            <img src="images/team/01.jpg" alt="">
+                            <img src="{% static 'images/team/01.jpg' %}" alt="">
                             <div class="content-hover team-btn">
                                 <a href="#" class="btn btn-small btn-maincolor">Mail me</a>
                             </div>
@@ -482,7 +502,7 @@
                     </div>
                     <div class="vertical-item content-padding text-center overflow-hidden">
                         <div class="item-media">
-                            <img src="images/team/02.jpg" alt="">
+                            <img src="{% static 'images/team/02.jpg' %}" alt="">
                             <div class="content-hover team-btn">
                                 <a href="#" class="btn btn-small btn-maincolor">Mail me</a>
                             </div>
@@ -506,7 +526,7 @@
                     </div>
                     <div class="vertical-item content-padding text-center overflow-hidden">
                         <div class="item-media">
-                            <img src="images/team/03.jpg" alt="">
+                            <img src="{% static 'images/team/03.jpg' %}" alt="">
                             <div class="content-hover team-btn">
                                 <a href="#" class="btn btn-small btn-maincolor">Mail me</a>
                             </div>
@@ -530,7 +550,7 @@
                     </div>
                     <div class="vertical-item content-padding text-center overflow-hidden">
                         <div class="item-media">
-                            <img src="images/team/04.jpg" alt="">
+                            <img src="{% static 'images/team/04.jpg' %}" alt="">
                             <div class="content-hover team-btn">
                                 <a href="#" class="btn btn-small btn-maincolor">Mail me</a>
                             </div>
@@ -554,7 +574,7 @@
                     </div>
                     <div class="vertical-item content-padding text-center overflow-hidden">
                         <div class="item-media">
-                            <img src="images/team/05.jpg" alt="">
+                            <img src="{% static 'images/team/05.jpg' %}" alt="">
                             <div class="content-hover team-btn">
                                 <a href="#" class="btn btn-small btn-maincolor">Mail me</a>
                             </div>
@@ -578,7 +598,7 @@
                     </div>
                     <div class="vertical-item content-padding text-center overflow-hidden">
                         <div class="item-media">
-                            <img src="images/team/06.jpg" alt="">
+                            <img src="{% static 'images/team/06.jpg' %}" alt="">
                             <div class="content-hover team-btn">
                                 <a href="#" class="btn btn-small btn-maincolor">Mail me</a>
                             </div>
@@ -621,7 +641,7 @@
                             deserunt dolor.
                         </p>
                     </div>
-                    <img class="marker-icon" src="images/map_marker_icon.png" alt="">P
+                    <img class="marker-icon" src="{% static 'images/map_marker_icon.png' %}" alt="">P
                 </div>
                 <!-- .marker -->
             </div>
